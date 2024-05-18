@@ -1,0 +1,14 @@
+-- -----------------------------------------------------
+-- Data for table `SGCO`.`Prestadores`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `SGCO`;
+INSERT INTO `SGCO`.`Prestadores` (`id_Prestador`, `nombre_Prestador`, `plan_Prestador`, `status_Prestador`) VALUES (1, 'OSDE', '210', 1);
+INSERT INTO `SGCO`.`Prestadores` (`id_Prestador`, `nombre_Prestador`, `plan_Prestador`, `status_Prestador`) VALUES (2, 'OSDE', '310', 1);
+INSERT INTO `SGCO`.`Prestadores` (`id_Prestador`, `nombre_Prestador`, `plan_Prestador`, `status_Prestador`) VALUES (3, 'OSDE', '410', 1);
+INSERT INTO `SGCO`.`Prestadores` (`id_Prestador`, `nombre_Prestador`, `plan_Prestador`, `status_Prestador`) VALUES (4, 'OSDE', '510', 1);
+INSERT INTO `SGCO`.`Prestadores` (`id_Prestador`, `nombre_Prestador`, `plan_Prestador`, `status_Prestador`) VALUES (5, 'SWISS', 'S840', 1);
+INSERT INTO `SGCO`.`Prestadores` (`id_Prestador`, `nombre_Prestador`, `plan_Prestador`, `status_Prestador`) VALUES (6, 'SWISS', 'SMG02', 1);
+INSERT INTO `SGCO`.`Prestadores` (`id_Prestador`, `nombre_Prestador`, `plan_Prestador`, `status_Prestador`) VALUES (7, 'SWISS', 'SO02', 1);
+
+COMMIT;
