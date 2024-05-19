@@ -1,0 +1,2 @@
+INSERT INTO `SGCO`.`Turnos` (`id_Turnos`, `fechora_Tunos`, `Pacientes_id_Pacientes`, `tipo_Turnos`, `status_Turnos`, `Prestadores_id_Prestador`, `trans_prestador_Turnos`) VALUES (1, '2024-05-20 09:45:00', 1, 1, 0, 1, NULL);
+INSERT INTO `SGCO`.`Turnos` (`id_Turnos`, `fechora_Tunos`, `Pacientes_id_Pacientes`, `tipo_Turnos`, `status_Turnos`, `Prestadores_id_Prestador`, `trans_prestador_Turnos`) VALUES (2, '2024-05-20 10:00:00', 1, 1, 0, 2, NULL);
